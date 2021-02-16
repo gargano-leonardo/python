@@ -1,0 +1,6 @@
+version:                "3"
+services:
+    db:
+        image: mongo:4.2.8
+        ports:
+        - 27018:27017
